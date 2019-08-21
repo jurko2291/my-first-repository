@@ -1,0 +1,14 @@
+body
+{
+    color: red;
+    border: 1px solid black;
+    margin:2px;
+    padding:2px;
+    background-color: burlywood;
+
+}
+h1{
+    text-align: center;
+    font-size: 15em;
+
+}
