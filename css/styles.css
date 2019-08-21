@@ -1,9 +1,31 @@
 body
 {
-    color: red;
-    border: 1px solid black;
-    margin:2px;
-    padding:2px;
+    color: rgba(32, 6, 80, 0.986);
+    border: 10px solid black;
+    margin:20px;
+    padding:40px;
     background-color: burlywood;
+    font-family: arial;
 
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    margin: 2px;
+    padding: 5px;
+    font-size: 5em;
+}
+
+div{
+
+    min-height: 10vh;
+    width: 10vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img{
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 130px;
 }
