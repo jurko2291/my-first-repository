@@ -6,12 +6,13 @@ body
     padding:40px;
     background-color: burlywood;
     font-family: arial;
+    font-size: 1em;
 
 }
 h1{
     text-align: center;
     font-family: 'Franklin Gothic Medium';
-    margin: 2px;
+    margin: 1vmax;
     padding: 5px;
     font-size: 5em;
 }
@@ -25,7 +26,81 @@ div{
 
 img{
     display: flex;
-    padding: 20px;
+    padding: 1px;
     margin: 0 auto;
     border-radius: 130px;
+    width: 10vw;
+    height: 10vh;
 }
+
+img:hover{
+    width: 20vw;
+    height: 20vh;
+    transition: 0.2s ease;
+    }
+
+img:active
+{
+    width: 30vw;
+    height: 30vh;
+    transition: 0.2s ease;
+ }
+img:link{
+    width: 150vw;
+    height: 15vh;
+    transition: 0.2s ease;
+
+}
+
+#mujSeznam{
+    list-style-type: square;
+    padding:0;
+    font-size:2.4em;
+
+}
+
+l1.item{
+    padding:1em;
+   font-size: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+l1:hover{
+font-size: 1.2em;
+transition: 0.6s ease;
+
+}
+
+.kocka, .pes{
+    color: blueviolet;
+
+}
+
+.kralik{
+    color:goldenrod;
+
+}
+
+  table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 10%;
+  }
+  
+  table, th, td {
+    border: 1.2px solid black;
+  }
+
+  th {
+    height: 20px;
+  }
+  td {
+    height: 20px;
+    vertical-align: bottom;
+  }
+
+  th, td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid rgb(172, 28, 28);
+  }
